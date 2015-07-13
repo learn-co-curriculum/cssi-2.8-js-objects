@@ -10,13 +10,17 @@ After the Lesson you'll be able to understand:
 + key:value pairs
 + differences between arrays and objects
 
-Remember when we talked about strings earlier today? Well it turns out that Strings are Objects. In fact, arrays are objects as well. Nearly everything in javascript is an object. Even a function is object in JS, though this is not true in many other languages.
+Remember when we talked about strings earlier today? Well it turns out that Strings are objects. In fact, arrays are objects as well. Nearly everything in javascript is an object. Even a function is an object in JS, though this is not true in many other languages.
 
-Javascript is an object oriented programming language. Objects are the foundation of Object Oriented Programming. Consider all the hardware changes in the past 50 years: Memory once measured in kilobytes, expanded to megabytes, gigabytes and now terabytes.  The speed of computers and capabilities of graphics chips, based on smaller, more dense circuits, have marked the advances in hardware.  Yet in programming languages, there has been one major revolution: Objects.  C spawned C++, and now many widely used programming languages like Java, Objective-C, C#, Ruby, Python, and JavaScript all use Objects.
+Javascript is an object oriented programming language. Everything can be described by objects, which bundles properties, with methods or actions, and events that impact that object.
 
-Everything can be described by Objects, which bundles properties, with methods or actions, and events that impact that Object.
 
-Let’s learn about another data structure we can use besides our array, which is referred to as an Object and behaves like an associative array. That is, it creates a list of associated data pairs. Objects arrays do not have numbered indexes. Instead they contain key names and associated values. Where a numbered grocery list is a good metaphor for an array, a birthday list including a person’s name (key) and their birthday date(value) would be a better metaphor for an object.
+An object is a list of associated data pairs. Unlike arrays, objects do not have numbered indexes. Instead they contain key names and associated values. Where a numbered grocery list is a good metaphor for an array, a birthday list including a person’s name (key) and their birthday date(value) would be a better metaphor for an object.
+
+```
+> var birthdays = { "Homer" : "August", "Marge": "October"}
+```
+
 
 It's like a list of pairs of things; or a list of stickers, each of which is stuck to something else. The syntax is different, too.
 
@@ -25,6 +29,8 @@ It's like a list of pairs of things; or a list of stickers, each of which is stu
 ```
 
 Each sticker/object pair, also called a key/value pair in computer science, is separated from the next by a comma.
+`apple` is the key, and the associated value is `red`
+
 And instead of looking up individual values with an index, we now can use the keys, or stickers.
 ```
 > fruitColors["apple"]
@@ -35,4 +41,29 @@ Javascript also allows you to access the values by using a dot, similar to how y
 ```
 > fruitColors.apple
 ```
-Exercise: Now create an object with at least 4 associated pairs and assign it to a variable. What did you make?
+Exercise: Now create an object with at least 4 associated pairs and assign it to a variable. 
+
+
+Let's explore Javascript objects using a real life object.
+
+In real life, a person is an object. A person has **properties** like firstName, surname, age, and gender. A person's ability to express her thoughts can be defined as a **method** _talk_.
+
+Object  | Property Name        | Propery Value                    | Method |
+----------|---------------------------|-------------------------------------|-------------|
+person | firstName                | person.firstName = "Jane" |
+            | surname                 | person.surname = "Doe"    |
+            | age                         | person.age = 24                 |
+            | gender                    | person.gender = "Female" |
+            |                                |                                            | person.talk();
+
+
+Using this representation of person, every person will have the same property names (firstName, surname, age, and gender) **BUT** different property values. Each person object would also inherit the **same method** _talk_.
+
+ Before moving on, let's fill out the profile of our `person object` to match the information in the object table above:
+      ```javascript
+      var person = {
+        firstName: "Jane",
+        surname: "Doe",
+        age: 24,
+        gender: "Female"}
+      ```
