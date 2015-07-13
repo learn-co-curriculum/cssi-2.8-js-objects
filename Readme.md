@@ -59,11 +59,12 @@ person | firstName                | person.firstName = "Jane" |
 
 Using this representation of person, every person will have the same property names (firstName, surname, age, and gender) **BUT** different property values. Each person object would also inherit the **same method** _talk_.
 
- Before moving on, let's fill out the profile of our `person object` to match the information in the object table above:
-      ```javascript
+To fill out the profile of our `person object` to match the information in the object table above:
+      
+```javascript
       var person = {
         firstName: "Jane",
         surname: "Doe",
         age: 24,
         gender: "Female"}
-      ```
+```
