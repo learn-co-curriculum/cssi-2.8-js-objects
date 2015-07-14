@@ -10,7 +10,6 @@ After the Lesson you'll be able to understand:
 + key:value pairs
 + differences between arrays and objects
 
-Remember when we talked about strings earlier today? Well it turns out that Strings are objects. In fact, arrays are objects as well. Nearly everything in javascript is an object. Even a function is an object in JS, though this is not true in many other languages.
 
 Javascript is an object oriented programming language. Everything can be described by objects, which bundles properties, with methods or actions, and events that impact that object.
 
