@@ -11,7 +11,7 @@ After the Lesson you'll be able to understand:
 + differences between arrays and objects
 
 
-Javascript is an object oriented programming language. Everything can be described by objects, which bundles properties, with methods or actions, and events that impact that object.
+Javascript is an object oriented programming language. Everything can be described by objects, which bundle properties, with methods or actions, and events that impact those objects.
 
 
 An object is a list of associated data pairs. Unlike arrays, objects do not have numbered indexes. Instead they contain key names and associated values. Where a numbered grocery list is a good metaphor for an array, a birthday list including a person’s name (key) and their birthday date(value) would be a better metaphor for an object.
