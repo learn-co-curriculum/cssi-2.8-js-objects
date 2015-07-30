@@ -60,7 +60,7 @@ Let's explore Javascript objects using a real life object.
 In real life, a person is an object. A person has **properties** like firstName, surname, age, and gender. A person's ability to express her thoughts can be defined as a **method** _talk_.
 
 Object  | Property Name        | Propery Value                    | Method |
-----|---------------------------|-------------------------------------|-------------|
+------------------------|-------------------------------------|-------------|
 person | firstName                | person.firstName = "Jane" |
             | surname                 | person.surname = "Doe"    |
             | age                         | person.age = 24                 |
