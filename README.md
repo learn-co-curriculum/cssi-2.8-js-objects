@@ -85,3 +85,5 @@ var person = {
 Make a new object called dog, with properites: name, breed, size, and function, bark.
 # References
 [Site Point JS Objects](http://www.sitepoint.com/back-to-basics-javascript-object-syntax/)
+
+<a href='https://learn.co/lessons/cssi-2.8-js-objects' data-visibility='hidden'>View this lesson on Learn.co</a>
