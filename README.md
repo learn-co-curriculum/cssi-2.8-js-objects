@@ -86,4 +86,4 @@ Make a new object called dog, with properites: name, breed, size, and function, 
 # References
 [Site Point JS Objects](http://www.sitepoint.com/back-to-basics-javascript-object-syntax/)
 
-<a href='https://learn.co/lessons/cssi-2.8-js-objects' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/cssi-2.8-js-objects' title='Objects'>Objects</a> on Learn.co and start learning to code for free.</p>
